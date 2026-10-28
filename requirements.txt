@@ -1,18 +1,28 @@
-langchain
+# Core LangChain & LangGraph
+langchain>=0.3.0
+langchain-core>=1.4.7
+langchain-community>=0.3.0
+langgraph>=1.2.18
+
+# LLM Providers
+langchain-google-genai>=2.0.0
 langchain-openai
 langchain-anthropic
 langchain-groq
-deepagents
-python-dotenv
-google-genai
-streamlit
-langchain_community
-langchain_core
-langserve
-fastapi
-uvicorn
-sse-starlette
+
+# Web / Tools
 tavily-python
 beautifulsoup4
 requests
+
+# App & API
+streamlit
+fastapi
+uvicorn
+sse-starlette
+langserve
+
+# Utils
+python-dotenv
 rich
+google-genai

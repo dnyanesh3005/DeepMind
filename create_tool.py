@@ -60,3 +60,5 @@ def scrape_url(url: str) -> str:
     except Exception as e:
         return f"Error parsing content: {e}"
 
+
+
