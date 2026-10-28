@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments (don't copy into image)
+.venv/
+venv/
+env/
+
+# Environment secrets (pass via docker run -e or --env-file)
+.env
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# UV / build artifacts
+uv.lock
+*.egg-info/
+dist/
+build/
+
+# Streamlit cache
+.streamlit/
+
+# Readme
+README.md
